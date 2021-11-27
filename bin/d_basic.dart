@@ -11,20 +11,17 @@ void main() {
  // disPlayPositionalArgument(yourID: "123", yourName: "Shatil");
 
 
-
+print(sum(10,29));
+print(sum(10,30));
+print(sum(40,30));
 
 
 
 }
 
-int sum(){
-
-  var value1 =10;
-  var value2 =20;
+int sum(int value1,int value2){
   var add = value1+value2;
-
-
- return add;
+  return add;
 }
 
 
