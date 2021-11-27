@@ -6,7 +6,28 @@ void main() {
   //myMethodName();
   var re = myList();
  print(myList());
+ print(myMapMethod());
+ disPlayNormalArgument("This is Normal Argument");
 }
+
+
+
+void disPlayNormalArgument(String msg){
+print(msg);
+}
+
+
+
+void disPlayPositionalArgument(){
+
+}
+
+
+
+
+
+
+
 
  myMethodName(){
 print("Hi this is called");
@@ -28,4 +49,10 @@ List<String> myList(){
 double myCGP(){
   //body
 return 0;
+}
+
+Map<String,String> myMapMethod(){
+
+
+  return{'key': "Value"};
 }
