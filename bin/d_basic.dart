@@ -3,24 +3,25 @@ void main() {
   // var userId = 12345;
   //
   // print('Username : $useName UserId: $userId');
+  myMethodName();
 }
 
-void myMethodName(//Argument){
-//body
+void myMethodName(){
+print("Hi this is called");
 
 }
 
-int myId(//Argument){
+int myId(){
   //body
 return 0;
 }
 
-String myName(//Argument){
+String myName(){
   //body
-return 0;
+return 'HI';
 }
 
-double myCGP(//Argument){
+double myCGP(){
   //body
 return 0;
 }
