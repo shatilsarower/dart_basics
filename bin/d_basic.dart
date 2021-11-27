@@ -24,28 +24,16 @@ int sum(int value1,int value2){
   return add;
 }
 
-
-
-
-
 void disPlayNormalArgument(String msg){
 print("Your Massage is : $msg");
 }
-
-
 
 void disPlayPositionalArgument({String? yourID, String? yourName}){
 print("your_id: $yourID\n Your_Name :$yourName");
 }
 
 
-
-
-
-
-
-
- myMethodName(){
+myMethodName(){
 print("Hi this is called");
 
 }
