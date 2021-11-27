@@ -3,24 +3,28 @@ void main() {
   // var userId = 12345;
   //
   // print('Username : $useName UserId: $userId');
-  myMethodName();
+  //myMethodName();
+  var re = myList();
+ print(myList());
 }
 
-void myMethodName(){
+ myMethodName(){
 print("Hi this is called");
 
 }
 
 int myId(){
-  //body
+  print("Hi this is called");
 return 0;
 }
 
 String myName(){
-  //body
+
 return 'HI';
 }
-
+List<String> myList(){
+  return['Name1','Name2'];
+}
 double myCGP(){
   //body
 return 0;
