@@ -19,6 +19,12 @@ void main() {
 
 int sum(){
 
+  var value1 =10;
+  var value2 =20;
+  var add = value1+value2;
+
+
+ return add;
 }
 
 
