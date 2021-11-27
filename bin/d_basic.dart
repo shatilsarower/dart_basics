@@ -12,9 +12,9 @@ void main() {
 
 
 print(sum(30, 40));
-print(dis(30, 40));
-print(sub(30, 40));
-print(subtract(30, 40));
+print(dis(30, 80));
+print(sub(3, 40));
+print(subtract(32, 40));
 
 
 var result = sum(30, 40);
