@@ -11,11 +11,16 @@ void main() {
  // disPlayPositionalArgument(yourID: "123", yourName: "Shatil");
 
 
-print(sum(10,29));
-print(sum(10,30));
-print(sum(40,30));
+print(sum(30, 40));
+print(dis(30, 40));
+print(sub(30, 40));
+print(subtract(30, 40));
 
 
+var result = sum(30, 40);
+var result1 = dis(30, 40);
+var result2= sub(30, 40);
+var result3 = subtract(30, 40);
 
 }
 
@@ -24,6 +29,23 @@ int sum(int value1,int value2){
   return add;
 }
 
+int dis(int value1,int value2){
+  var dis = value1-value2;
+  return dis;
+}
+
+int sub(int value1,int value2){
+  var sub = value1*value2;
+  return sub;
+}
+double subtract(double value1,double value2){
+  var subtract = value1/value2;
+  return subtract;
+}
+// int sum(int value1,int value2){
+//   var add = value1+value2;
+//   return add;
+//}
 void disPlayNormalArgument(String msg){
 print("Your Massage is : $msg");
 }
